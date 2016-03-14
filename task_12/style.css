@@ -83,10 +83,6 @@ li {
 }
 
 
-// .slider-controller:focus  #slider-list {
-// 	left: -100%;
-// }
-
 #check-box-1:checked~#slider-list{
 	left: 0;
 }
