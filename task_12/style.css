@@ -1,0 +1,23 @@
+body {
+	font-family: 'Microsoft YaHei';
+}
+#websize-table {
+	text-align: left;
+}
+#websize-table th {
+	color: #fff;
+	background-color: #000;
+}
+#websize-table tr:nth-child(2n+1) {
+	background-color: #ccc;
+}
+#websize-table tr:nth-last-child(1n+8) {
+	color: #f00;
+}
+#username {
+	width: 100px;
+	transition: .5s width;
+}
+#username:focus {
+	width: 200px;
+}
