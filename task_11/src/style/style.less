@@ -1,0 +1,64 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+html {
+  font-size: 32px;
+  /* 手动设置根字体大小为设计稿宽度的 1/20 */
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+a, img {
+  -webkit-touch-callout: none;
+}
+html, body {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('./icons/iconfont.eot'); /* IE9*/
+  src: url('./icons/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./icons/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('./icons/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('./icons/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+.icon-arrow {
+  font-family:"iconfont" !important;
+  font-size: 35/64rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: super;
+}
+
+#header {
+  padding: 20/64rem;
+  height: 35/64rem;
+  line-height:  35/64rem;
+  background-color: #91d4da;
+  color: #fff;
+  text-align: center;
+  h1 {
+    text-align: center;
+    vertical-align: top;
+    font-size: 35/64rem;
+    font-weight: normal;
+  }
+  .back {
+    position: absolute;
+    left: 20/64rem;
+    height: 35/64rem;
+    vertical-align: baseline;
+    span {
+      margin-left: -.3rem;
+      font-size: 32/64rem;
+      vertical-align: super;
+    }
+  }
+}
