@@ -17,6 +17,10 @@ html, body {
   user-select: none;
 }
 
+ul li {
+  list-style: none;
+}
+
 @font-face {
   font-family: 'iconfont';
   src: url('./icons/iconfont.eot'); /* IE9*/
@@ -60,5 +64,24 @@ html, body {
       font-size: 32/64rem;
       vertical-align: super;
     }
+  }
+}
+
+nav {
+  overflow: hidden;
+  font-size: 32/64rem;
+  ul {
+    overflow: hidden;
+    padding: 0;
+  }
+  li {
+    padding: 25/64rem 0 25/64rem 0;
+    float: left;
+    width: 20%;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  li:nth-child(2) {
+    border-bottom: 3/64rem solid #91d4da;
   }
 }
