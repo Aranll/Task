@@ -1,0 +1,93 @@
+body {
+    font-family: 'Microsoft YaHei';
+}
+ul {
+    list-style: none;
+}
+ul, 
+li {
+    padding: 0;
+    margin: 0;
+}
+#websize-table {
+    text-align: left;
+}
+#websize-table th {
+    color: #fff;
+    background-color: #000;
+}
+#websize-table tr:nth-child(2n+1) {
+    background-color: #ccc;
+}
+#websize-table tr:nth-last-child(1n+8) {
+    color: #f00;
+}
+.username {
+    margin-top: 100px;
+    width: 100px;
+    transition: .5s width;
+}
+.username:focus {
+    width: 200px;
+}
+
+
+
+
+#slider-wrap {
+    position: relative;
+    margin-top: 100px;
+    width: 300px;
+    height: 120px;
+    overflow: hidden;
+}
+#slider-wrap input{
+    display: none;
+}
+#slider-list {
+    position: absolute;
+    left: 0;
+    width: 300%;
+    height: 100%;
+    transition: .5s left;
+}
+.slider-item {
+    float: left;
+    width: 300px;
+    height: 120px;
+}
+.slider-item:nth-child(1) {
+    background-color: #f00;
+}
+.slider-item:nth-child(2) {
+    background-color: #0f0;
+}
+.slider-item:nth-child(3) {
+    background-color: #00f;
+}
+#slider-controller {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.controller-item {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+
+#check-box-1:checked~#slider-list{
+    left: 0;
+}
+#check-box-2:checked~#slider-list{
+    left: -100%;
+}
+#check-box-3:checked~#slider-list{
+    left: -200%;
+}
