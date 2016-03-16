@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+div {
+    box-sizing: border-box;
+    margin-top: 20px;
+    float: left;
+    padding: 0 10px
+}
+div::after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 48px;
+    background: #eee;
+    border: 1px solid #999;
+}
+.container {
+	padding: 0 10px;
+}
+.container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.col-md-1 {
+	width: 8.33%;
+}
+.col-md-2 {
+	width: 16.66%;
+}
+.col-md-3 {
+	width: 25%;
+}
+.col-md-4 {
+	width: 33.33%;
+}
+.col-md-6 {
+	width: 50%;
+}
+@media screen and (max-width:768px) {
+	.col-sm-2 {
+		width: 16.66%;
+	}
+	.col-sm-3 {
+		width: 25%;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+	.col-sm-8 {
+		width: 66.66%;
+	}
+	.col-sm-12 {
+		width: 100%;
+	}
+}
