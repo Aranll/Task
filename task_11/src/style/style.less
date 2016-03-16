@@ -52,6 +52,11 @@ html {
     font-size: 54px;
   }
 }
+@media screen and (min-width: 568px) {
+  html {
+    font-size: 56.8px;
+  }
+}
 @media screen and (min-width: 600px) {
   html {
     font-size: 60px;
@@ -62,6 +67,11 @@ html {
     font-size: 64px;
   }
 }
+@media screen and (min-width: 667px) {
+  html {
+    font-size: 66.7px;
+  }
+}
 @media screen and (min-width: 720px) {
   html {
     font-size: 72px;
@@ -70,6 +80,11 @@ html {
 @media screen and (min-width: 731px) {
   html {
     font-size: 73.1px;
+  }
+}
+@media screen and (min-width: 736px) {
+  html {
+    font-size: 73.6px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -231,7 +246,6 @@ nav {
   .col-flex {
     display: flex;
     padding-top: 25/64rem;
-    //height: 220/64rem;
   }
   .col-box {
     width: 33.33%;
@@ -268,7 +282,7 @@ nav {
   }
 }
 
-.module-1 {
+.module {
   margin-top: 22/64rem;
   padding: 25/64rem 20/64rem 0 20/64rem;
   background-color: #fff;
@@ -279,16 +293,15 @@ nav {
     border-bottom: 3/64rem solid #ccc;
   }
   .up {
-    //display: flex;
-    //flex-wrap: wrap;
-    //justify-content: space-between;
-    //align-items: stretch;
     .avatar {
+      box-sizing: border-box;
       position: absolute;
       left: 20/64rem;
       width: 155/64rem;
       height:145/64rem;
-      background-color: #00ee00;
+      background: url('./img/avatar.png') no-repeat;
+      background-size: 100% 100%;
+      border: 1px solid #fdcf74;
     }
     .items {
       display: flex;
