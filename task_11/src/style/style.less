@@ -322,25 +322,56 @@ nav {
 
 .articles {
   margin-top: 20/64rem;
-  margin-bottom: 1/64rem;
-  padding: 15/64rem 40/64rem 18/64rem 20/64rem;
-  background-color: #fff;
-  overflow: hidden;
+  margin-bottom: 90/64rem;
   .article {
     position: relative;
+    background-color: #fff;
+    padding: 15/64rem 40/64rem 18/64rem 20/64rem;
+    margin-bottom: 3/64rem;
+    overflow: hidden;
+    .img {
+      float: left;
+      width: 180/64rem;
+      height: 130/64rem;
+      background-color: #33acfe;
+    }
+    .title {
+      padding-left: 200/64rem;
+      font-size: 28/64rem;
+      line-height: 40/64rem;
+      min-height: 80/64rem;
+    }
+    .time {
+      margin-top: 18/64rem;
+      padding-left: 200/64rem;
+      font-size: 22/64rem;
+      color: #c6c6c6;
+    }
+  }
+}
+
+.article-flex {
+  position: relative;
+  background-color: #fff;
+  padding: 15/64rem 40/64rem 18/64rem 20/64rem;
+  margin-bottom: 3/64rem;
+  overflow: hidden;
+  .title {
+    font-size: 28/64rem;
+    line-height: 50/64rem;
+  }
+  .flex-img {
+    display: flex;
+    justify-content: space-between;
   }
   .img {
-    float: left;
     width: 180/64rem;
     height: 130/64rem;
     background-color: #33acfe;
   }
-  .title {
-    padding-left: 200/64rem;
-    font-size: 28/64rem;
-    line-height: 40/64rem;
-  }
   .time {
-    font-size: 30/64rem;
+    margin-top: 15/64rem;
+    font-size: 22/64rem;
+    color: #c6c6c6;
   }
 }
