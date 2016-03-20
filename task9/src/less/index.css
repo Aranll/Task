@@ -11,6 +11,7 @@ header{min-width:1280px;height:55px;background-color:#2189BF;}
 .content .lcontent .ldata .col{margin-left:2px;}
 .content .lcontent .ldata .col:before{display:block;float:left;content:"";height:30px;width:1px;margin-right:32px;background-color:#313545;}
 .content .lcontent ul{cursor:pointer;list-style:none;margin:0px;margin-top:22px;padding:0px;color:#576477;font-size:12px;}.content .lcontent ul li{width:260px;height:50px;line-height:50px;}.content .lcontent ul li img{margin-left:45px;margin-right:10px;}
+.content .lcontent ul li:hover{background-color:#393E4E;}
 .content .rContent{float:right;width:1020px;height:inherit;background-color:#EEEEED;}
 #person{display:block;height:190px;background-color:#393E4E;line-height:30px;color:#fff;}#person ul{margin:0px;list-style:none;padding:0px;}#person ul li{height:30px;line-height:30px;margin-left:26px;width:234px;}#person ul li img{margin-right:5px;vertical-align:middle;}
 #person ul .file{display:block;height:90px;color:#fff;}#person ul .file ul{margin:0px;list-style:none;padding:0px;}#person ul .file ul li{margin-left:35px;width:199px;}#person ul .file ul li img{vertical-align:middle;}
