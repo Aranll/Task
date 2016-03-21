@@ -230,13 +230,14 @@
         i++;;
         fn(num);
         timer = setInterval(function () {
-          if (i === consoleArr.length) {
+          if (i >= consoleArr.length) {
             clearInterval(timer);
             return;
           }
           fn = handler[consoleArr[i].replace(/\s+[0-9]+\s*$/, '')];
           num = consoleArr[i].match(/[0-9]+/) && consoleArr[i].match(/[0-9]+/)[0];
           fn && fn(num);
+          i++;
         }, 1000);
       },
       check: function () {
