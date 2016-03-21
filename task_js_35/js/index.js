@@ -3,6 +3,7 @@
   var HEIGHT = 42;
   var btn = document.getElementById('btn');
   var userIn = document.getElementById('userIn');
+  var clearBtn = document.getElementById('reFresh');
   var controller = (function () {
     function mkMaze (container, config) {
       var x = config.x;
@@ -264,5 +265,8 @@
   });
   userIn.addEventListener('scroll', function () {
     handlTextArea.scrollList(this.scrollTop);
-  })
+  });
+  clearBtn.addEventListener('click', function () {
+    userIn.value = '';
+  });
 }());
