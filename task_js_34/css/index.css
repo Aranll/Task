@@ -22,5 +22,6 @@
   height: 34px;
   background: red;
   border-top: 8px solid blue;
+  transition: all 1s;
  /* transform: rotate(90deg);*/
 }

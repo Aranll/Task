@@ -95,7 +95,7 @@
           if (pos.rotate <= - 360) {
             pos.rotate += 360;
           }   
-        } else if (!type && rotate !== undefined) {
+        } else {
           pos.rotate = rotate;
         }
        if (pos.rotate >= 0) {
