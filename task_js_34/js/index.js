@@ -81,7 +81,7 @@
         pos.action.style.top = pos.x * (HEIGHT + 1) + 'px';
       }
       function turn (type, rotate) {
-        if (!rotate) {
+        if (rotate === undefined) {
           if (type === 1) {
             pos.rotate -= 90;
           } else if (type === 2) {
