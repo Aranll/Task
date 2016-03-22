@@ -290,7 +290,7 @@
           fn();
         }
         i++;
-        if (!timer) {
+        if (!len) {
           timer = setInterval(exec, 1000);
         }
         function exec () {
