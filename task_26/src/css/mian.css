@@ -1,0 +1,83 @@
+body,#univers {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#univers {
+	position: absolute;
+	left: 0px; right: 0px; bottom: 0px;top: 0px;
+	margin: auto;
+}
+
+#Console {
+	overflow: scroll;
+	position: absolute;
+	right: 0px; bottom: 0px;
+	height: 120px;
+	width: 500px;
+	background-color: rgba(107, 75, 16,0.4);
+}
+
+#Console li {
+	list-style: none;
+	height: 16px;
+	width: inherit;
+	padding: 0px;
+	font-size: 16px;
+	color: white;
+}
+
+#Console .fail {
+	height: 16px;
+	width: inherit;
+	padding: 0px;
+	font-size: 16px;
+	color: red;
+}
+
+#contral {
+	position: absolute;
+	left: 0px; top: 0px;
+	height: 150px;
+	width: 500px;
+	background-color: rgba(46, 45, 43, 0.3);
+	z-index: 100;
+}
+
+#contral div {
+	box-sizing: border-box;
+	width: 100%;
+	height: 25%;
+	background-color: rgba(105, 102, 98, 0.3);
+	border: 1px solid rgb(105, 102, 98);
+}
+
+#contral div span {
+	box-sizing: border-box;
+	cursor: pointer;
+	float: left;
+	display: block;
+	height: 100%;
+	width: 20%;
+	color: white;
+	line-height: 35px;
+	text-align: center;
+	border-left: 1px solid rgb(105, 102, 98);
+}
+
+#contral div span:hover {
+	background-color: rgb(105, 102, 98);
+}
+
+#contral div span:first-child {
+	cursor: auto;
+	background-color: rgb(105, 102, 98);
+}
+
+#canvasBg,#canvasAir {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
